@@ -1,0 +1,79 @@
+body {
+    color: rgb(66, 66, 66);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 14px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    max-width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* centers elements inside */
+    gap: 20px; /* even spacing */
+}
+
+.container .org-logo{
+/*    padding-bottom: 200px; */
+    display: block;
+    margin: 0 auto 20px;
+    width: 80px;
+}
+
+.container h1 {
+    text-align: center;
+    color: #b3b3b3;
+    margin-bottom: 20px;
+}
+
+.container .pincode-gif {
+    display: block;
+    margin: 0 auto 20px;
+    width: 100px;
+}
+
+
+.container input {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    color: rgb(66, 66, 66);
+    width: 100%;
+    background-color: #e0e0e0;
+    border-radius: 6px;
+    border: none;
+    height: 50px;
+    padding: 0 15px;
+    box-sizing: border-box;
+    outline: none;
+    transition: all 0.2s ease-in-out;
+}
+
+.container button {
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 6px;
+    background-color: #4caf50;
+    color: white;
+    font-size: large;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.container button:hover {
+    background-color: #43a047;
+}
+
+.container input:focus {
+    background-color: #d6d6d6;
+    box-shadow: 0 0 0 2px #b3b3b3;
+}
